@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.program {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+}
+.program strong {
+  font-weight: 600;
+}
+.program a {
+  color: inherit;
+}
+.program .day {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.program .day .item .time {
+  display: inline;
+  white-space: nowrap;
+  margin-right: 0.75rem;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+}
+.program .day .item .item-text {
+  display: inline;
+}
+.program .day .item .item-text div {
+  display: list-item;
+  padding-inline-start: 1ch;
+  list-style-type: "⇀";
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.program .day .item .item-text div em {
+  font-size: 0.95em;
+}
+.program .day .item .item-text div::marker {
+  color: grey;
+}
+
+/*# sourceMappingURL=program.css.map */

@@ -1,0 +1,45 @@
+table:not(.sourcetable) {
+  table-layout: fixed;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+  text-align: left;
+  font-variant-numeric: tabular-nums;
+}
+table:not(.sourcetable) thead tr {
+  background-color: #dadada;
+  color: #1f1f1f;
+}
+@media (prefers-color-scheme: dark) {
+  table:not(.sourcetable) thead tr {
+    background-color: #4b4b4b;
+    color: #f1f1f1;
+  }
+}
+table:not(.sourcetable) tbody th {
+  font-weight: normal;
+}
+table:not(.sourcetable) th,
+table:not(.sourcetable) td {
+  padding: 0.2em 1em;
+  margin-right: 0.1em;
+  vertical-align: top;
+}
+@media only screen and (max-width: 600px) {
+  table:not(.sourcetable) th,
+  table:not(.sourcetable) td {
+    padding-left: 0;
+    font-size: 0.9rem;
+  }
+}
+table:not(.sourcetable).pivot {
+  font-size: 0.9em;
+}
+table:not(.sourcetable).pivot tbody td:first-child {
+  font-weight: bold;
+}
+table:not(.sourcetable).pivot tbody tr:first-child th {
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=tables.css.map */

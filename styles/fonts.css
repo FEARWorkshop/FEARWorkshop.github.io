@@ -1,0 +1,130 @@
+@font-face {
+  font-family: IBMPlexSerif;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSerif/IBMPlexSerif-Text.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSerif;
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSerif/IBMPlexSerif-TextItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSerif;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSerif/IBMPlexSerif-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSerif;
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSerif/IBMPlexSerif-BoldItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans/IBMPlexSans-Text.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSans;
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans/IBMPlexSans-TextItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans/IBMPlexSans-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSans;
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans/IBMPlexSans-BoldItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans/IBMPlexSans-SemiBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSans;
+  font-style: normal;
+  font-weight: 300;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans/IBMPlexSans-Light.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSansCondensed;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans-Condensed/IBMPlexSansCondensed-Text.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexSansCondensed;
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexSans-Condensed/IBMPlexSansCondensed-TextItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexMono;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexMono/IBMPlexMono-Text.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexMono;
+  font-style: italic;
+  font-weight: normal;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexMono/IBMPlexMono-TextItalic.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexMono;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexMono/IBMPlexMono-Bold.woff2) format("woff2");
+}
+@font-face {
+  font-family: IBMPlexMono;
+  font-style: italic;
+  font-weight: bold;
+  font-stretch: normal;
+  font-display: auto;
+  src: url(fonts/IBMPlexMono/IBMPlexMono-BoldItalic.woff2) format("woff2");
+}
+
+/*# sourceMappingURL=fonts.css.map */

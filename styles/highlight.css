@@ -1,0 +1,516 @@
+:root {
+  --auburn: #993333;
+  --sky-blue: #97D2FB;
+  --slate-blue: #7161EF;
+  --ebony: #161B33;
+  --light-red: #ff6b6b;
+  --true-blue: #4464AD;
+  --blue-purple: #A4B0F5;
+}
+
+:root {
+  --kw-color: var(--auburn);
+  --op-color: #555555;
+  --num-color: #444444;
+  --comment-color: #777777;
+  --color-01: var(--auburn);
+  --color-02: var(--sky-blue);
+  --color-03: var(--slate-blue);
+  --color-04: var(--mint);
+  --code-bg-color: #fbfbfb;
+  --code-border-color: #ddd;
+  --code-filename-bg-color: #f0f0f0;
+  --caption-color: var(--muted-color);
+}
+
+.highlight .source {
+  overflow-x: auto;
+}
+
+.highlight .sourcetable {
+  display: block;
+}
+
+.highlight .linenos {
+  display: none;
+}
+
+.highlight .code {
+  margin-left: 1em;
+}
+
+.highlight pre {
+  line-height: 1.5;
+}
+
+@media all and (max-width: 600px) {
+  .highlight pre {
+    font-size: 95%;
+  }
+}
+.highlight .hll {
+  background-color: #ffffcc;
+}
+
+.highlight {
+  background: #ffffff;
+}
+
+.highlight .c {
+  color: var(--comment-color);
+}
+
+/* Comment */
+/* Error */
+.highlight .k {
+  color: var(--kw-color);
+}
+
+/* Keyword */
+.highlight .o {
+  color: var(--op-color);
+}
+
+/* Operator */
+.highlight .ch {
+  color: var(--comment-color);
+}
+
+/* Comment.Hashbang */
+.highlight .cm {
+  color: var(--comment-color);
+}
+
+/* Comment.Multiline */
+.highlight .cp {
+  color: #BC7A00;
+}
+
+/* Comment.Preproc */
+.highlight .cpf {
+  color: var(--comment-color);
+}
+
+/* Comment.PreprocFile */
+.highlight .c1 {
+  color: var(--comment-color);
+}
+
+/* Comment.Single */
+.highlight .cs {
+  color: var(--comment-color);
+}
+
+/* Comment.Special */
+.highlight .gd {
+  color: #A00000;
+}
+
+/* Generic.Deleted */
+/* Generic.Emph */
+.highlight .gr {
+  color: #FF0000;
+}
+
+/* Generic.Error */
+.highlight .gh {
+  color: #000080;
+}
+
+/* Generic.Heading */
+.highlight .gi {
+  color: #00A000;
+}
+
+/* Generic.Inserted */
+.highlight .go {
+  color: #888888;
+}
+
+/* Generic.Output */
+.highlight .gp {
+  color: #000080;
+}
+
+/* Generic.Prompt */
+/* Generic.Strong */
+.highlight .gu {
+  color: #800080;
+}
+
+/* Generic.Subheading */
+.highlight .gt {
+  color: #0044DD;
+}
+
+/* Generic.Traceback */
+.highlight .kc {
+  color: var(--kw-color);
+}
+
+/* Keyword.Constant */
+.highlight .kd {
+  color: var(--kw-color);
+}
+
+/* Keyword.Declaration */
+.highlight .kn {
+  color: var(--kw-color);
+}
+
+/* Keyword.Namespace */
+.highlight .kp {
+  color: inherit;
+}
+
+/* Keyword.Pseudo */
+.highlight .kr {
+  color: var(--kw-color);
+}
+
+/* Keyword.Reserved */
+.highlight .kt {
+  color: var(--color-03);
+}
+
+/* Keyword.Type */
+.highlight .m {
+  color: var(--num-color);
+}
+
+/* Literal.Number */
+.highlight .s {
+  color: var(--op-color);
+}
+
+.highlight .n {
+  color: inherit;
+}
+
+/* Literal.String */
+.highlight .na {
+  color: inherit;
+}
+
+/* Name.Attribute */
+.highlight .nb {
+  color: inherit;
+}
+
+/* Name.Builtin */
+.highlight .nc {
+  color: var(--color-03);
+}
+
+/* Name.Class */
+.highlight .no {
+  color: #880000;
+}
+
+/* Name.Constant */
+.highlight .nd {
+  color: var(--op-color);
+}
+
+/* Name.Decorator */
+.highlight .ni {
+  color: #999999;
+}
+
+/* Name.Entity */
+.highlight .ne {
+  color: #D2413A;
+}
+
+/* Name.Exception */
+.highlight .nf {
+  color: inherit;
+}
+
+/* Name.Function */
+.highlight .nl {
+  color: var(--op-color);
+}
+
+/* Name.Label */
+.highlight .nn {
+  color: var(--color-03);
+}
+
+/* Name.Namespace */
+.highlight .nt {
+  color: var(--kw-color);
+}
+
+/* Name.Tag */
+.highlight .nv {
+  color: inherit;
+}
+
+/* Name.Variable */
+.highlight .ow {
+  color: var(--op-color);
+}
+
+/* Operator.Word */
+.highlight .w {
+  color: #bbbbbb;
+}
+
+/* Text.Whitespace */
+.highlight .mb {
+  color: var(--num-color);
+}
+
+/* Literal.Number.Bin */
+.highlight .mf {
+  color: var(--num-color);
+}
+
+/* Literal.Number.Float */
+.highlight .mh {
+  color: var(--num-color);
+}
+
+/* Literal.Number.Hex */
+.highlight .mi {
+  color: var(--num-color);
+}
+
+/* Literal.Number.Integer */
+.highlight .mo {
+  color: var(--num-color);
+}
+
+/* Literal.Number.Oct */
+.highlight .sa {
+  color: var(--op-color);
+}
+
+/* Literal.String.Affix */
+.highlight .sb {
+  color: var(--op-color);
+}
+
+/* Literal.String.Backtick */
+.highlight .sc {
+  color: var(--op-color);
+}
+
+/* Literal.String.Char */
+.highlight .dl {
+  color: var(--op-color);
+}
+
+/* Literal.String.Delimiter */
+.highlight .sd {
+  color: var(--op-color);
+}
+
+/* Literal.String.Doc */
+.highlight .s2 {
+  color: var(--op-color);
+}
+
+/* Literal.String.Double */
+.highlight .se {
+  color: var(--op-color);
+}
+
+/* Literal.String.Escape */
+.highlight .sh {
+  color: var(--op-color);
+}
+
+/* Literal.String.Heredoc */
+.highlight .si {
+  color: #BB6688;
+}
+
+/* Literal.String.Interpol */
+.highlight .sx {
+  color: inherit;
+}
+
+/* Literal.String.Other */
+.highlight .sr {
+  color: #BB6688;
+}
+
+/* Literal.String.Regex */
+.highlight .s1 {
+  color: var(--op-color);
+}
+
+/* Literal.String.Single */
+.highlight .ss {
+  color: var(--op-color);
+}
+
+/* Literal.String.Symbol */
+.highlight .bp {
+  color: var(--kw-color);
+}
+
+/* Name.Builtin.Pseudo */
+.highlight .fm {
+  color: var(--color-03);
+}
+
+/* Name.Function.Magic */
+.highlight .vc {
+  color: var(--color-03);
+}
+
+/* Name.Variable.Class */
+.highlight .vg {
+  color: var(--color-03);
+}
+
+/* Name.Variable.Global */
+.highlight .vi {
+  color: var(--color-03);
+}
+
+/* Name.Variable.Instance */
+.highlight .vm {
+  color: var(--color-03);
+}
+
+/* Name.Variable.Magic */
+.highlight .il {
+  color: var(--num-color);
+}
+
+/* Literal.Number.Integer.Long */
+pre {
+  font-family: var(--mono-font);
+  font-variant-ligatures: none;
+}
+
+.highlight, .bibtex {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  position: relative;
+}
+.highlight .source, .bibtex .source {
+  font-family: var(--mono-font);
+  font-size: 0.8rem;
+  background-color: var(--code-bg-color);
+  border-top: 1px solid var(--code-border-color);
+  border-bottom: 1px solid var(--code-border-color);
+  padding: 0.5rem;
+  font-variant-ligatures: none;
+  font-variant-numeric: normal;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.highlight .source pre, .bibtex .source pre {
+  margin: 0;
+}
+.highlight .caption, .bibtex .caption {
+  font-family: var(--alt-font);
+  font-size: 0.8em;
+  font-style: italic;
+  font-variant-numeric: lining-nums;
+  margin: auto;
+  padding: 0.2rem 0 0.2rem 0.5rem;
+  color: var(--caption-color);
+  background-color: var(--code-filename-bg-color);
+}
+.highlight .download-button, .bibtex .download-button {
+  all: unset;
+  outline: revert;
+  font-size: 0.95em;
+  display: inline-flex;
+  opacity: 0.8;
+  border: 0.5px solid;
+  border-color: var(--code-filename-bg-color);
+  border-radius: 0.25em;
+  transition-property: border-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.15s;
+  margin-left: 0.5em;
+  min-width: 1.5em;
+  min-height: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+@media (hover) {
+  .highlight .download-button:hover, .bibtex .download-button:hover {
+    border-color: gray;
+  }
+}
+.highlight .download-button:active, .bibtex .download-button:active {
+  color: var(--fg-color);
+}
+.highlight .copy-button, .bibtex .copy-button {
+  all: unset;
+  outline: revert;
+  visibility: hidden;
+  display: flex;
+  opacity: 0.2;
+  transition-property: opacity, color;
+  transition-duration: 0.1s;
+  border: 0.5px gray solid;
+  border-radius: 0.25em;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.2);
+  background-color: var(--code-bg-color);
+  left: 100%;
+  transform: translate(-100%, 0);
+  margin: 0.5em 0 0 -0.5em;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  justify-content: center;
+}
+@media (prefers-color-scheme: dark) {
+  .highlight .copy-button, .bibtex .copy-button {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+.highlight .copy-button i, .bibtex .copy-button i {
+  margin: auto;
+}
+@media (hover) {
+  .highlight .copy-button:hover, .bibtex .copy-button:hover {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media (hover) and (prefers-color-scheme: dark) {
+  .highlight .copy-button:hover, .bibtex .copy-button:hover {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+.highlight .copy-button:active, .bibtex .copy-button:active {
+  color: var(--fg-color);
+}
+@media (hover) {
+  .highlight:hover .copy-button, .bibtex:hover .copy-button {
+    visibility: visible;
+    opacity: 1;
+    transition-property: opacity, color, background-color;
+    transition-duration: 0.1s;
+  }
+}
+@media not all and (hover) {
+  .highlight .copy-button, .bibtex .copy-button {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.code-wrap {
+  overflow-x: clip;
+}
+.code-wrap pre {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=highlight.css.map */
