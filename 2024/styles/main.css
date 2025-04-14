@@ -58,7 +58,7 @@ body {
   margin: auto;
   padding-top: 1.5rem;
   background-color: white;
-  background-image: url("/media/pexels-szymon-shields-11210304-compressed.jpg");
+  background-image: url("media/pexels-szymon-shields-11210304-compressed.jpg");
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
