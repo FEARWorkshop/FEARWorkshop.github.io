@@ -19,8 +19,8 @@
     <link rel="stylesheet" type="text/css" href="/styles/program.css" />
     <link rel="stylesheet" type="text/css" href="/styles/speakers.css" />
     <link rel="stylesheet" type="text/css" href="/styles/tables.css" />
-    <link rel="stylesheet" type="text/css" href="/styles/2025/main.css" />
-    <link rel="preload" fetchpriority="high" as="image" href="/media/2025/nancy_rothwell.jpeg"
+    <link rel="stylesheet" type="text/css" href="/styles/2026/main.css" />
+    <link rel="preload" fetchpriority="high" as="image" href="/media/2026/Kilburn.jpg"
         type="image/jpeg">
     <!--
     Does nothing, but prevents flash of unstyled content in Firefox.
@@ -36,13 +36,20 @@
     <div class="fancy" id="header">
         <div id="nav-container">
             <div id="navbar" role="navigation">
-                <a href="/2025/tutorial/">Home</a>
+                <a href="/2026/tutorial/">Home</a>
                 <!-- <a href="#schedule-and-location">Venue</a> -->
                 <!-- <a href="#program">Program</a> -->
                 <a href="#tutors">Tutors</a>
-                <a href="#submission-information">Submission</a>
-                <a href="#program-chair">Organizers</a>
-                <a href="/2025/workshop/">Workshop</a>
+                <a href="#submission-information">Registration</a>
+                <label id="menu-dropdown">
+                    <div id="dropdown-button">Committees</div>
+                    <input id="dropdown-input" type="checkbox" />
+                    <ul id="dropdown-menu">
+                        <li><a href="#program-chair">Program Chairs</a></li>
+                        <li><a href="#program-committee">Program Committees</a></li>
+                    </ul>
+                </label>
+                <a href="/2026/workshop/">Workshop</a>
                 <label id="menu-dropdown">
                     <div id="dropdown-button">Past Events</div>
                     <input id="dropdown-input" type="checkbox" />
@@ -51,11 +58,12 @@
                         <li><a href="/2025/" target="_blank">FEAR 2025</a></li>
                     </ul>
                 </label>
+
             </div>
         </div>
 
         <div id="title-block">
-            <h1><span><a href="/2026/tutorial/" title="Go to home page">FEAR 2026<span style="font-size: 0.8em"> </span></a></span>
+            <h1><span><a href="/2026/tutorial" title="Go to home page">FEAR 2026<span style="font-size: 0.8em"> </span></a></span>
             </h1>
 
             <div id="subtitle"><span>Formal Ethical Agents and Robots Tutorial</span></div>
@@ -66,7 +74,7 @@
         
         <h2 id="welcome" class="section"><a class="anchor" href="#welcome"
             title="permalink to this section">Welcome to FEAR 2026</a></h2>
-        <p>The Second International Workshop on Formal Ethical Agents and Robots (FEAR) will be held on 3 November 2026 
+        <p>The Third International Workshop on Formal Ethical Agents and Robots (FEAR) will be held on 3 November 2026 
             with co-located tutorial scheduled for 2 November 2026 both at the Kilburn Building, the University of Manchester, UK.
             <!-- <br><br> -->
             <!-- Online participation can be accessed via this <a href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_NTM3YzNlZWEtNzJkZi00Y2IxLTgyMzgtNzczZDg2ODI2ZmZm%40thread.v2/0?context=%7b%22Tid%22%3a%22c152cb07-614e-4abb-818a-f035cfa91a77%22%2c%22Oid%22%3a%227bfb7636-6867-47c7-bede-81587fb144e3%22%7d">link</a> -->
@@ -83,7 +91,7 @@
             To this end we are offering this tutorial, collocated with the The Second International Workshop on Formal Ethical Agents and 
             Robots (FEAR)
         </p>
-        <h2 id="schedule-and-location" class="section"><a class="anchor" href="#schedule-and-location"
+        <!-- <h2 id="schedule-and-location" class="section"><a class="anchor" href="#schedule-and-location"
             title="permalink to this section">Schedule and Location</a></h2>
         <p>TThis year we will hold a free one-day workshop with informal proceedings, consisting of short talks and opportunities for
             discussion, and a free one-day tutorial that engages conversation in the state-of-the-art machine ethics fields. 
@@ -117,7 +125,7 @@
                 <tr><td>16:15</td><td>Community Discussion</td></tr>
                 <tr><td>17:00</td><td>Close</td></tr>
             </table>
-        </p>
+        </p> -->
         
         <!-- <h2 id="workshop-location" class="section"><a class="anchor" href="#workshop-location"
                 title="permalink to this section">Workshop Location</a></h2>
@@ -172,26 +180,23 @@
         </div> -->
         <h2 id="tutors" class="section"><a class="anchor" href="#tutors"
                 title="permalink to this section">Tutors</a></h2>
-            <div class="invited-speaker" id="marija-speaker-info">
+            <div class="invited-speaker" id="marcus-speaker-info">
                 <div class="title-name-affiliation">
-                    <div class="talk-title"><a href="/media/2025/slides-marija.pdf" target=”_blank”>What is machine ethics</a></div>
+                    <div class="talk-title">Ethics under uncertainty</div>
                     <div class="name-affiliation">
-                        <div class="name"><a href="http://slavkovik.com/">Marija Slavkovik</a></div>
-                        <div class="affiliation">University of Bergen, Norway</div>
+                        <div class="name"><a target="_blank" href="https://sites.google.com/site/marcuspivato/home">Marcus Pivato</a></div>
+                        <div class="affiliation">Université Paris 1 Panthéon-Sorbonne</div>
                     </div>
                 </div>
                 <div class="info-and-image">
                     <div class="info-container">
                         <div class="speaker-bio">
-                            <figure class="headshot-container"><img src="/media/marija-slavkovik.png"
-                                    alt="Marija Slavkovik" title="Marija Slavkovik" />
-                                <figcaption><a href="http://slavkovik.com/">Marija Slavkovik</a></figcaption>
+                            <figure class="headshot-container"><img src="/media/2026/marcus.jpg"
+                                    alt="Marcus Pivato" title="Marcus Pivato" />
+                                <figcaption><a target="_blank" href="https://sites.google.com/site/marcuspivato/home">Marcus Pivato</a></figcaption>
                             </figure>
                             <div class="bio-text" paragraphs="none"><span>Topic</span> 
-                                <p>This tutorial introduces the object of interest and methodology of the field in broad strokes. It offers an 
-                                    overview of the filed developments including most impactful references,  and presents the open challenges. 
-                                    This tutorial is perfect for you who is considering doing research in machine ethics. No background is necessary. 
-                                </p>
+                                <p>TBA</p>
                             </div>
                         </div>
                     </div>
@@ -199,25 +204,32 @@
             </div> 
             <div class="invited-speaker" id="louise-speaker-info">
                 <div class="title-name-affiliation">
-                    <div class="talk-title"><a href="/media/2025/slides-louise.pdf" target=”_blank”>Evaluating machine ethics</a></div>
+                    <div class="talk-title">Ethics of human and AI</div>
                     <div class="name-affiliation">
-                        <div class="name"><a href="https://personalpages.manchester.ac.uk/staff/louise.dennis/">Louise Dennis</a></div>
-                        <div class="affiliation">University of Manchester, United Kingdom</div>
+                        <div class="name"><a target="_blank" href="https://www.queens.ac.uk/about-us/our-people/malcolm-brown/">Malcolm Brown</a></div>
+                        <div class="affiliation">University of Bath, United Kingdom</div>
                     </div>
                 </div>
                 <div class="info-and-image">
                     <div class="info-container">
                         <div class="speaker-bio">
-                            <figure class="headshot-container"><img src="/media/2025/louise.png"
-                                    alt="Louise Dennis" title="Louise Dennis" />
-                                <figcaption><a href="https://personalpages.manchester.ac.uk/staff/louise.dennis/">Louise Dennis</a></figcaption>
+                            <figure class="headshot-container"><img src="/media/2026/malcolm.jpg"
+                                    alt="Malcolm Brown" title="Malcolm Brown" />
+                                <figcaption><a target="_blank" href="https://www.queens.ac.uk/about-us/our-people/malcolm-brown/">Malcolm Brown</a></figcaption>
                             </figure>
                             <div class="bio-text" paragraphs="none"><span>Topic</span>
-                                <p>It is not enough that machines behave ethically. We also need to be able to prove that they do. This tutorial 
-                                    focuses on formal verification for ethical behaviour. It lightly introduces formal verification and the dives 
-                                    into the specific developments and challenges of the field. A background in formal verification is appreciated 
-                                    but for those with a curious disposition, the tutorial is available even without it.  
-                                </p>
+                                <p>Ethics is most frequently encountered as a series of processes or checks which validate a particular field of work. 
+                                    But Ethics is also an academic discipline and, no less than others, is vigorously contested between divergent 
+                                    schools of thought. So, when we talk about ethics in the context of other realms of study or activity, including 
+                                    the development and application of AI, we have to ask, What sort of ethics? Today, the state of ethical thinking 
+                                    in the academy is out of step with what passes for ethics in Western society in general – and this poses important 
+                                    challenges to the ways in which AI is being rolled out. The culture of the global marketplace has fostered an 
+                                    assumption that consequentialist ethics is all there is, and a crude utilitarianism follows. Academic ethics has, 
+                                    for the last 40 years or so, turned increasingly to the nature of the human person, the idea of virtue and the 
+                                    practices of moral formation. Bringing the ethics of the human, and of virtue, into the ways we build AI has become 
+                                    an urgent necessity as the interface between technology and the human person becomes more loaded with both promise 
+                                    and threat. In the process, our language of AI in relation to the human person may have to change and perhaps we will 
+                                    come to understand better exactly what makes us human in the first place.</p>
                             </div>
                         </div>
                     </div>
@@ -225,35 +237,27 @@
             </div>
             <div class="invited-speaker" id="brian-speaker-info">
                 <div class="title-name-affiliation">
-                    <div class="talk-title"><a href="/media/2025/slides-logan.pdf" target=”_blank”>Reward Machines and Norms</a></div>
+                    <div class="talk-title">Reward Machines and Norms</div>
                     <div class="name-affiliation">
-                        <div class="name"><a href="https://www.abdn.ac.uk/people/brian.logan">Brian Logan</a></div>
-                        <div class="affiliation">University of Aberdeen, United Kingdom</div>
+                        <div class="name"><a target="_blank" href="https://www.abdn.ac.uk/people/brian.logan">Radu Calinescu</a></div>
+                        <div class="affiliation">University of York, United Kingdom</div>
                     </div>
                 </div>
                 <div class="info-and-image">
                     <div class="info-container">
                         <div class="speaker-bio">
-                            <figure class="headshot-container"><img src="/media/2025/brian.jpeg"
-                                    alt="Brian Logan" title="Brian Logan" />
-                                <figcaption><a href="https://www.abdn.ac.uk/people/brian.logan">Brian Logan</a></figcaption>
+                            <figure class="headshot-container"><img src="/media/2026/radu.jpeg"
+                                    alt="Radu Calinescu" title="Radu Calinescu" />
+                                <figcaption><a target="_blank" href="https://www.abdn.ac.uk/people/brian.logan">Radu Calinescu</a></figcaption>
                             </figure>
                             <div class="bio-text" paragraphs="none"><span>Topic</span>
-                                <p>Autonomous agents based on reinforcement learning have attracted a lot of interest. What a reinforcement 
-                                    learning agent chooses to do is governed by its reward function. This tutorial introduces an approach to 
-                                    specifying reward functions based on "reward machines". Reward machines allow the specification of rewards 
-                                    based on the history of an agent's interaction with its environment. As such they can be used to specify 
-                                    norms an agent should conform to while learning to perform another task. After briefly introducing reinforcement 
-                                    learning and reward machines, we will discuss how reward machines can be used to learn to comply with norms 
-                                    in a multi-agent setting. Some basic knowledge of reinforcement learning and some familiarity with formal 
-                                    methods is desirable but not essential.
-                                </p>
+                                <p>TBA</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div> 
-            <div class="invited-speaker" id="marina-speaker-info">
+            <!-- <div class="invited-speaker" id="marina-speaker-info">
                 <div class="title-name-affiliation">
                     <div class="talk-title"><a href="/media/2025/slides-marina-tutorial.pdf" target=”_blank”>Normative multi-agent systems: An introduction</a></div>
                     <div class="name-affiliation">
@@ -269,26 +273,12 @@
                                 <figcaption><a href="https://researchportal.bath.ac.uk/en/persons/marina-de-vos">Marina De Vos</a></figcaption>
                             </figure>
                             <div class="bio-text" paragraphs="none"><span>Topic</span>
-                                <p>Norms and regulations play a fundamental role in the governance of human society. Social rules—such as laws, 
-                                    conventions, and contracts—not only prescribe and regulate behavior but also allow individuals the autonomy to 
-                                    violate them, accepting the consequences. This balance between guidance and discretion inspires the design of 
-                                    normative multi-agent systems (NorMAS), where software agents reason about norms to make informed decisions 
-                                    rather than being strictly regimented.
-                                    Normative multi-agent systems provide a framework for modeling and analyzing agent behavior in environments 
-                                    governed by social rules. Norms enable agents to evaluate the consequences of socially acceptable and unacceptable 
-                                    actions, allowing them to choose behaviors aligned with their own goals while considering system-level 
-                                    expectations.
-                                    This tutorial offers an accessible introduction to normative multi-agent systems. We will introduce the InstAL 
-                                    framework, which supports the modeling of normative frameworks or institutions and compliance monitoring. We 
-                                    will explore topics like norm representation, enforcement, design-time and runtime verification, and the dynamics 
-                                    of interacting and evolving institutions.
-                                    No prior experience with multi-agents systems or normative systems is required.
-                                </p>
+                                <p>TBA</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>  -->
         <h2 id="submission-information" class="section"><a class="anchor" href="#submission-information"
                 title="permalink to this section">Registration Information</a></h2>
         <p> 
@@ -298,25 +288,47 @@
             <br><br>
             FEAR will be a hybrid meeting, supporting both virtual and in-person attendance. We strongly encourage in-person attendance.
             We encourage PhD candidates and interested academics to register via this 
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHqscjYW14rdKTWH-TZ7Tw8WMA0Oybdyh4UV1GOytQPerbKQ/viewform?usp=header">link</a>. 
+            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdHqscjYW14rdKTWH-TZ7Tw8WMA0Oybdyh4UV1GOytQPerbKQ/viewform?usp=header">link</a>. 
         </p>
-        <h2 id="important-dates" class="section"><a class="anchor" href="#important-dates"
+        <!-- <h2 id="important-dates" class="section"><a class="anchor" href="#important-dates"
                 title="permalink to this section">Important Dates</a></h2>
         <ul>
-            <li>Deadline: Thursday, 11<sup>th</sup> of September 2025, 11:59 UTC-0</li>
-            <!-- <li>Notification: Thursday, 11<sup>th</sup> of September 2025</li> -->
-            <li>Tutorial: Monday, 3<sup>rd</sup> of November 2025</li>
-        </ul>
+            <li>Submission Deadline: Monday, 3<sup>rd</sup> of August 2026, 11:59 UTC-0</li>
+            <li>Notification: Monday, 7<sup>th</sup> of September 2026</li>
+            <li>Tutorial: Monday, 2<sup>nd</sup> of November 2026</li>
+        </ul> -->
         <h2 id="program-chair" class="section"><a class="anchor" href="#program-chair"
-                title="permalink to this section">Organizers</a></h2>
+                title="permalink to this section">Program Chair</a></h2>
                 <div class="one-item-list"><strong><a href="mailto:louise.dennis@manchester.ac.uk">Louise Dennis</a></strong>, University of Manchester</div>
                 <div class="one-item-list"><strong><a href="mailto:marija.slavkovik@uib.no">Marija Slavkovik</a></strong>, University of Bergen</div>
                 <div class="one-item-list"><strong><a href="mailto:raynaldio.limarga@manchester.ac.uk">Raynaldio Limarga</a></strong>, University of Manchester</div>
+                <div class="one-item-list"><strong><a href="mailto:s.m.l.christensen@sheffield.ac.uk">Sarah Moth-Lund Christensen</a></strong>, University of Sheffield</div>
+                <div class="one-item-list"><strong><a href="mailto:tuva.bardal@warwick.ac.uk">Tuva Bardal</a></strong>, University of Warwick</div>
+                <div class="one-item-list"><strong><a href="mailto:cssmdv@bath.ac.uk">Marina De Vos</a></strong>, University of Bath</div>
+        <h2 id="program-committee" class="section"><a class="anchor" href="#program-committee" title="permalink to this section">Program Committee</a></h2>
+        <ul>
+            <li><strong>Gleifer Vaz Alves</strong>, Federal University of Technology – Paraná</li>
+            <li><strong>Kevin Baum</strong>, German Research Center for AI (DFKI)</li>
+            <li><strong>Andreas Brännström</strong>, Umeå University</li>
+            <li><strong>Joe Collenette</strong>, University of Chester</li>
+            <!-- <li><strong>Alex Jackson</strong>, Kings College London</li> -->
+            <li><strong>Aleks Knoks</strong>, University of Luxembourg</li>
+            <!-- <li><strong>Simon Kolker</strong>, University of Manchester</li> -->
+            <li><strong>Vivek Nallur</strong>, University College Dublin</li>
+            <!-- <li><strong>Samer Nashed</strong>, University of Montreal</li> -->
+            <li><strong>Maurice Pagnucco</strong>, University of New South Wales</li>
+            <li><strong>Luca Pasetto</strong>, University of Luxembourg</li>
+            <!-- <li><strong>Jazon Szabo</strong>, Kings College London</li> -->
+            <li><strong>Maike Schwammberger</strong>, Karlsruhe Institute of Technology</li>
+            <li><strong>Dieter Vanderelst</strong>, University of Cincinnati</li>
+            <li><strong>Andrea Vestrucci</strong>, University of Bamberg</li>
+            <!-- <li><strong>Yasmeen Rafiq</strong>, University of Manchester</li> -->
+        </ul>
     </div>
 
     <div class="horizontal-rule"></div>
     <div id="footer">
-        <div class="copyright">© FEAR 2025</div>
+        <div class="copyright">© FEAR 2026</div>
         ⋅
         <div class="logos"><img src="/media/uom.png" title="University of Manchester" />
             <!-- <img src="/media/rae.png" title="Royal Academy of Engineering" />
